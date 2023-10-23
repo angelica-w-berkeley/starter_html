@@ -8,26 +8,26 @@
     <title>Travel</title>
 </head>
 <body>
-    <a href = "#main-content">Skip to Main Content</a>
+    <div class="skip"><a href="#main-content">Skip to Main Content</a></div>
     <header>
         <nav>
             <ul>
                 <li><a href = "index.html">Pets</a></li>
                 <li><a href = "recipes.html">Recipes</a></li>
-                <li><a href = "travel.html">Travel</a></li>
+                <li><a class="current" href = "travel.html">Travel</a></li>
             </ul>
         </nav>
     </header>
-   
+
     <main id="main-content">
         <h1>Travels</h1>
         <div>
             <h2>Niagara Falls</h2>
-    
-            <img src="images/Niagara_Falls_gif.gif" width="400" alt="Niagara Falls close-up">
+
+            <img class="gif" src="images/Niagara_Falls_gif.gif" width="400" alt="Niagara Falls close-up">
             <img src="images/Niagara_Falls_jpg.jpg" width = "400" alt="Niagara Falls aerial view">
 
-            <h3>Geographical Location: North America</h3>
+            <h3 class="location">Geographical Location: North America</h3>
             <p>
                 The Niagara Falls is located on the border between Canada and the United States. Connecting Lake Erie and Lake ONtario, the Niagara Falls has the highest flow rate of any waterfall in North America.
             </p>
@@ -36,96 +36,98 @@
             </p>
 
             <h3>Photo Gallery</h3>
-            <figure>
-                <img src="images/Niagara_Falls_2.jpg" width = "200" alt="A visualization of the 'Horseshoe' part of the falls">
-                <figcaption>
-                    The 'Horseshoe'
-                </figcaption>
-            </figure>
+            <div class="travel-container">
+                <figure class="travel-item">
+                    <img src="images/Niagara_Falls_2.jpg" alt="A visualization of the 'Horseshoe' part of the falls">
+                    <figcaption>
+                        The 'Horseshoe'
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Niagara_Falls_Rainbow.jpg" width = "200" alt="Niagara Falls with a rainbow touching down in it">
-                <figcaption>
-                    A rainbow in Niagara Falls
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Niagara_Falls_Rainbow.jpg" alt="Niagara Falls with a rainbow touching down in it">
+                    <figcaption>
+                        Rainbow in Niagara Falls
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Niagara_Falls_Sunset.jpg" width="200" alt="An orange sky overlooking Niagara Falls">
-                <figcaption>
-                    A sunset at Niagara Falls
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Niagara_Falls_Sunset.jpg" alt="An orange sky overlooking Niagara Falls">
+                    <figcaption>
+                        Sunset at Niagara Falls
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Niagara_Falls_Colorful.jpg" width="200" alt="Niagara Falls illuminated with colored lights">
-                <figcaption>
-                    A colorful view of Niagara Falls
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Niagara_Falls_Colorful.jpg" alt="Niagara Falls illuminated with colored lights">
+                    <figcaption>
+                        Colorful view of Niagara Falls
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Niagara_Falls_Zoom-Out.jpg" width = "200" alt="Niagara Falls from a distant perspective">
-                
-                <figcaption>
-                    A distant look at Niagara Falls
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Niagara_Falls_Zoom-Out.jpg" alt="Niagara Falls from a distant perspective">
+                    <figcaption>
+                        Distant look at Niagara Falls
+                    </figcaption>
+                </figure>
+
+            </div>
             <!-- Steven Jacovitch -->
         </div>
         <div>
             <h2>Yellowstone</h2>
     
-            <img src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
+            <img class="gif" src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
             <img src="images/yellowstone_cauldron.jpg" width = "400" alt="Bubbling cauldron">
 
-            <h3>Geographical Location: North America</h3>
+            <h3 class="location">Geographical Location: North America</h3>
             <p>Yellowstone is the first national park in the United States. It covers over 2.2 million acres, and provides an opportunity to see wildlife and explore geothermal areas.  In fact, Yellowstone contains about half the world's active geysers.</p>
             <p>These unique opportunities also bring out a lot of bad decisions among the tourists.  Every year visitors injure themselves or the wildlife by getting close to the animals.  You  can see examples of people making bad decisions by visiting <a href ="https://www.facebook.com/groups/yellowstonenationalparkinvasionoftheidiots/">Yellowstone National Park: Invasion of the Idiots</a>, <a href="https://www.instagram.com/touronsofyellowstone/?hl=en">Tourons of Yellowstone</a>, or  <a href="https://cowboystatedaily.com/">Cowboy State Daily</a>.</p>
 
             <h3>Photo Gallery</h3>
-            <figure>
-                <img src="images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine">
-                <figcaption>Mammoth Hot Springs has a number of actively forming Travertine terraces.</figcaption>
-            </figure>
+            <div class="travel-container">
+                <figure class="travel-item">
+                    <img src="images/yellowstone_travertine.JPG" width = "200" alt="A large mound of multi-colored travertine">
+                    <figcaption>Mammoth Hot Springs has a number of actively forming Travertine terraces.</figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground">
-                <figcaption>The drive to Lamar Valley requires some dangerous roads.  But the result is amazing sunset views.</figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/yellowstone_sunset.jpg" width = "200" alt="Sunset over mountains with some charred trees in the foreground">
+                    <figcaption>The drive to Lamar Valley requires some dangerous roads.  But the result is amazing sunset views.</figcaption>
+                </figure>
 
+                <figure class="travel-item">
+                    <video width="200"  controls>
+                        <source src="images/yellowstone_prism.MOV">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>The multicolored layers get their hues from different species of bacteria living in the cooler water around the spring.</figcaption>
+                </figure>
 
-            <figure>
-                <video width="200"  controls>
-                    <source src="images/yellowstone_prism.MOV">
-                    Your browser does not support the video tag.
-                </video>
-                <figcaption>The multicolored layers get their hues from different species of bacteria living in the cooler water around the spring.</figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <video width="200"  controls>
+                        <source src="images/yellowstone_buffalo.MOV">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>The buffalo were so common along the roads in Yellowstone that our mantra became "If it ain't lickin the car, we aren't stopping."</figcaption>
+                </figure>
 
+                <figure class="travel-item">
+                    <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it.">
+                    <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
+                </figure>
 
-            <figure>
-                <video width="200"  controls>
-                    <source src="images/yellowstone_buffalo.MOV">
-                    Your browser does not support the video tag.
-                </video>
-                <figcaption>The buffalo were so common along the roads in Yellowstone that our mantra became "If it ain't lickin the car, we aren't stopping."</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/yellowstone_sulphur_springs.JPG" width = "200" alt="A large spring with clouds of sulfur smoke rising from it.">
-                
-                <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.</figcaption>
-            </figure>
+            </div>
             <!-- Colleen van Lent -->
         </div>
         <div>
             <h2>Boulder, Colorado</h2>
-    
-            <img src="images/Boulder_Colorado.gif" width="400" alt="Mountains in Boulder, Colorado">
+
+            <img class="gif" src="images/Boulder_Colorado.gif" width="400" alt="Mountains in Boulder, Colorado">
             <img src="images/Boulder_Colorado_Still_Image.jpg" width = "400" alt="Buildings and trees with mountains in the background">
 
-            <h3>Geographical Location: North America</h3>
+            <h3 class="location">Geographical Location: North America</h3>
             <p>
                 Boulder, Colorado is home to the University of Colorado. There are man hiking locations near the city center, most notably Chautauqua Park.
             </p>
@@ -134,40 +136,42 @@
             </p>
 
             <h3>Photo Gallery</h3>
-            <figure>
-                <img src="images/Boulder_Colorado_Campus.jpg" width = "200" alt="Snow-covered campus with flatirons in the back">
-                <figcaption>
-                    The University of Colorado during the winter
-                </figcaption>
-            </figure>
+            <div class="travel-container">
+                <figure class="travel-item">
+                    <img src="images/Boulder_Colorado_Campus.jpg" width = "200" alt="Snow-covered campus with flatirons in the back">
+                    <figcaption>
+                        The University of Colorado during the winter
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Boulder_Colorado_Flatirons.jpg" width = "200" alt="Flatirons during the summer with lots of green">
-                <figcaption>
-                    The Flatirons during the summer time
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Boulder_Colorado_Flatirons.jpg" width = "200" alt="Flatirons during the summer with lots of green">
+                    <figcaption>
+                        The Flatirons during the summer time
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Boulder_Colorado_Pearl_Street.jpg" width="200" alt="Downtown of Boulder, Colorado with the Flatirons in the back">
-                <figcaption>
-                    Pearl Street Mall
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Boulder_Colorado_Pearl_Street.jpg" width="200" alt="Downtown of Boulder, Colorado with the Flatirons in the back">
+                    <figcaption>
+                        Pearl Street Mall
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Boulder_Colorado_Varsity_Pond.jpg" width="200" alt="Pond at University of Colorado in the winter">
-                <figcaption>
-                    Varsity Pond in the winter
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Boulder_Colorado_Varsity_Pond.jpg" width="200" alt="Pond at University of Colorado in the winter">
+                    <figcaption>
+                        Varsity Pond in the winter
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/Boulder_Colorado_Snow_on_Flatirons.jpg" width = "200" alt="Flatirons in the winter">
-                <figcaption>
-                    The Flatirons in the winter
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/Boulder_Colorado_Snow_on_Flatirons.jpg" width = "200" alt="Flatirons in the winter">
+                    <figcaption>
+                        The Flatirons in the winter
+                    </figcaption>
+                </figure>
+            </div>
         </div>
         <div>
             <h2>Paris, France</h2>
@@ -175,7 +179,7 @@
             <img src="images/paris_1.jpg" width="400" alt="Distant picture of Paris including river and Eiffel Tower">
             <img src="images/paris_2.jpg" width = "400" alt="Eiffel Tower during sunset">
 
-            <h3>Geographical Location: Europe</h3>
+            <h3 class="location">Geographical Location: Europe</h3>
             <p>
                 Paris is the capital of France, and it's famous for its history, art, culture, and fashion. Paris is also called the 'City of Light' or the 'City of Love'. There are many famous landmarks like the Eiffel Tower, the Louvre Museum, the Notre-Dame Cathedral, and the Champs-Elysees Avenue. 
             </p>
@@ -184,41 +188,42 @@
             </p>
 
             <h3>Photo Gallery</h3>
-            <figure>
-                <img src="images/paris_louvre.jpg" width = "200" alt="Outside of the Louvre with the triangle at night">
-                <figcaption>
-                    The Louvre is one of the most famous art museums in the world
-                </figcaption>
-            </figure>
+            <div class="travel-container">
+                <figure class="travel-item">
+                    <img src="images/paris_louvre.jpg" width = "200" alt="Outside of the Louvre with the triangle at night">
+                    <figcaption>
+                        The Louvre is one of the most famous art museums in the world
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/paris_notre_dame.jpg" width = "200" alt="Outside of Notre Dame during daytime">
-                <figcaption>
-                    Admire the architecture of the Notre Dame 
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/paris_notre_dame.jpg" width = "200" alt="Outside of Notre Dame during daytime">
+                    <figcaption>
+                        Admire the architecture of the Notre Dame 
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/paris_arc.jpg" width="200" alt="Champs-Elysee with the Arc de Triomphe in the distance">
-                <figcaption>
-                    Champs-Elysee is an avenue lined with shops that leads to the Arc de Triomphe
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/paris_arc.jpg" width="200" alt="Champs-Elysee with the Arc de Triomphe in the distance">
+                    <figcaption>
+                        Champs-Elysee is an avenue lined with shops that leads to the Arc de Triomphe
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/paris_bakery.jpg" width="200" alt="Inside of bakery with pastries on display">
-                <figcaption>
-                    Parisian bakeries are filled with a lot of delicious pastries
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/paris_bakery.jpg" width="200" alt="Inside of bakery with pastries on display">
+                    <figcaption>
+                        Parisian bakeries are filled with a lot of delicious pastries
+                    </figcaption>
+                </figure>
 
-            <figure>
-                <img src="images/paris_tower.jpg" width = "200" alt="Eiffel Tower from a distant during the day">
-                
-                <figcaption>
-                    The Eiffel Tower is a famous symbol of Paris and attracts many tourists
-                </figcaption>
-            </figure>
+                <figure class="travel-item">
+                    <img src="images/paris_tower.jpg" width = "200" alt="Eiffel Tower from a distant during the day">
+                    <figcaption>
+                        The Eiffel Tower is a famous symbol of Paris and attracts many tourists
+                    </figcaption>
+                </figure>
+            </div>
         </div>
         <div></div>
 
