@@ -86,10 +86,14 @@ p{
 }
 
 .likes-item {
+    display: grid;
     text-align: center;
     background:rgb(187, 255, 191);
     border-radius: 10px;
-    margin: 5px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .pet-container{
