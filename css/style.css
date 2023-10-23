@@ -4,8 +4,7 @@
     background: white;
     left: 0;
     padding: 6px;
-    /* -webkit-transition: top 1s ease-out;
-    transition: top 1s ease-out; */
+
     z-index: 1;
 }
 
@@ -199,5 +198,4 @@ p{
     border-radius: 10px;
     background-color:rgb(210, 255, 255);
     margin: 5px;
-    font-
 }
